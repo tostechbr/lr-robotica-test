@@ -1,1 +1,28 @@
-aaaa
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: #EDEAEF;
+}
+
+svg, img {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */

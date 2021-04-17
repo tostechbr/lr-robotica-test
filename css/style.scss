@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-@import "/sass/colors";
-@import "/sass/layout";
-@import "/sass/sass/typography";
-@import "/sass/sass/buttons";
-@import "/sass/sass/spacing";
+@import "sass/colors";
+@import "sass/layout";
+@import "sass/typography";
+@import "sass/buttons";
+@import "sass/spacing";
 
 html {
     scroll-behavior: smooth;  // scroll mais suave
@@ -33,8 +33,8 @@ svg, img{
     border: 1px solid red;
 }
 
-@import "/sass/menu";
-@import "/sass/swiper";
-@import "/sass/icons";
-@import "/sass/footer";
-@import "/sass/animations";
+@import "sass/menu";
+@import "sass/swiper";
+@import "sass/icons";
+@import "sass/footer";
+@import "sass/animations";
