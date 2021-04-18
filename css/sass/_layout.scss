@@ -127,7 +127,7 @@ $container-s: 540px; // Mobile small
         font-size: 24px;
         padding: 1rem 1rem;
         font-weight: 400;
-        
+
         @include responsive(m){
             font-size: 18px;
         }
@@ -293,6 +293,120 @@ $container-s: 540px; // Mobile small
 .p-item-3 {
     #people2 {
         margin-bottom: 1rem;
+    }
+}
+.container-evolution {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .box-t-p {
+        text-align: center;
+
+        h1 {
+            color: $secondary-light;
+            line-height: 110%;
+            font-weight: bold;
+    
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: .7rem;
+        }
+    } 
+}
+.cards-e-item-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include responsive(m){
+        flex-direction: column;
+        padding: 24px 36px;
+        .division {
+            display: none;
+        }
+        .division-1 {
+            display: flex;
+        }
+    }
+    @include responsive(s){
+        flex-direction: column;
+        padding: 12px 18px;
+        .division {
+            display: none;
+        }
+        .division-1 {
+            display: flex;
+        }
+    }
+}
+.division-1 {
+    display: none;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+.card-1 {
+    max-width: 540px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px 2px rgba(255, 108, 14, 0.05);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 64px 36px;
+    margin-bottom: 1rem;
+
+    @include responsive(m){
+        
+    }
+    @include responsive(s){
+        
+    }
+
+    .text-e {
+        margin-left: 1rem;
+    }
+    img {
+        width: 100px;
+        height: 120px;
+    }
+}
+.division {
+    width: auto;
+}
+.card-1-pc {
+    max-width: 540px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 4px 12px 2px rgba(255, 108, 14, 0.05);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 64px 36px;
+
+    .text-e {
+        margin-left: 1rem;
+    }
+    img {
+        width: 100px;
+        height: 120px;
+    }
+}
+.cards-item-2 {
+    
+    @include responsive(m){
+        padding: 24px 36px;
+    }
+    @include responsive(s){
+        padding: 12px 18px;
     }
 }
 

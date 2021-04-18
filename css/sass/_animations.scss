@@ -93,3 +93,19 @@
         opacity: 0;
     }
 }
+// Evolutions
+
+.control {
+    animation: evolution 1s ease infinite alternate;
+}
+.art {
+    animation: evolution 1s ease infinite alternate;
+}
+@keyframes evolution {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(0,90px,0);
+    }
+}
