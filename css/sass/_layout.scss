@@ -114,12 +114,26 @@ $container-s: 540px; // Mobile small
         font-size: 96px;
         font-weight: 500;
         padding: 1rem 1rem;
+
+        @include responsive(m){
+            font-size: 48px;
+        }
+        @include responsive(s){
+            font-size: 48px;
+        }
     }
     p {
         color: $gray-4;
         font-size: 24px;
         padding: 1rem 1rem;
         font-weight: 400;
+        
+        @include responsive(m){
+            font-size: 18px;
+        }
+        @include responsive(s){
+            font-size: 18px;
+        }
     }
 
     .btns {
@@ -175,7 +189,7 @@ $container-s: 540px; // Mobile small
         width: 100%;
     }
 }
-
+// SECTION TOPICS
 .items-topics {
     max-width: 1200px;
     margin: 0 auto;
@@ -183,6 +197,13 @@ $container-s: 540px; // Mobile small
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include responsive(m){
+        flex-direction: column;
+    }
+    @include responsive(s){
+        flex-direction: column;
+    }
 
     .item-1 {
         display: flex;
@@ -208,6 +229,7 @@ $container-s: 540px; // Mobile small
         }
     }
 }
+// SECTION BUSINESS
 .container-business {
     max-width: 1200px;
     margin: 0 auto;
@@ -232,23 +254,31 @@ $container-s: 540px; // Mobile small
 .container-people {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 1rem 1rem;
     
     display: flex;
+    @include responsive(m){
+        flex-direction: column;
+    }
+    @include responsive(s){
+        flex-direction: column;
+    }
 }
 .p-item-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
-
-    
-
-    h1 {
+    h5{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 110%;
+    }
+    h2 {
         color: $secondary-light;
         line-height: 110%;
         font-weight: bold;
     }
-
     .itens-universal {
         list-style: none;
         display: flex;
@@ -259,6 +289,10 @@ $container-s: 540px; // Mobile small
         }
     }
 }
-@include responsive(m){
-    flex-direction: column;
+
+.p-item-3 {
+    #people2 {
+        margin-bottom: 1rem;
+    }
 }
+

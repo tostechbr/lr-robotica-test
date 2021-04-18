@@ -76,6 +76,11 @@
         display: none;
     }
 }
+#people2{
+    @include responsive(s){
+        display: none;
+    }
+}
 
 @keyframes people {
     0% {

@@ -23,6 +23,13 @@ header {
         align-items: center;
         justify-content: space-between;
 
+        @include responsive(m){
+            display: none;
+        }
+        @include responsive(s){
+            display: none;
+        }
+
         .menu-item {
             margin-right: 1rem;
             text-decoration: none;
