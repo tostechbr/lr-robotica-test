@@ -1,3 +1,5 @@
+// HERO
+
 .bg-robo {
     animation: bg-hero-1 3s ease infinite alternate;
 }
@@ -41,5 +43,48 @@
     }
     100%{
         transform: translateY(-20px);
+    }
+}
+
+// SECTION PEOPLE
+.people1 {
+    opacity: 0;
+    animation: people 10s ease 0s infinite;
+}
+.people2 {
+    opacity: 0;
+    animation: people 10s ease 5s infinite;
+}
+.people3 {
+    opacity: 0;
+    animation: people 10s ease 2s infinite;
+}
+.people4 {
+    opacity: 0;
+    animation: people 10s ease 7s infinite;
+}
+.people5 {
+    opacity: 0;
+    animation: people 10s ease 3s infinite;
+}
+.people6 {
+    opacity: 0;
+    animation: people 10s ease 8s infinite;
+}
+#people2{
+    @include responsive(m){
+        display: none;
+    }
+}
+
+@keyframes people {
+    0% {
+        opacity: 0;
+    }
+    20%,50%{
+        opacity: 1;
+    }
+    70%,100%{
+        opacity: 0;
     }
 }
