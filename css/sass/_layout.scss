@@ -121,3 +121,56 @@ $container-s: 540px; // Mobile small
         width: 100%;
     }
 }
+
+.items-topics {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .item-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            margin-bottom: 1rem;
+            width: 140px;
+            height: 140px;
+        }
+        h1 {
+            font-weight: 400;
+            color: $secondary-normal;
+            letter-spacing: 0.05em;
+            line-height: 120%;
+        }
+        p {
+            font-weight: 400;
+            color: $gray-2;
+            font-size: 16px;
+            line-height: 150%;
+        }
+    }
+}
+.container-business {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        color: $secondary-light;
+        margin-bottom: 1rem;
+    }
+    .business {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
