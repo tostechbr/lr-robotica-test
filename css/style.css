@@ -917,6 +917,160 @@ header {
   border-radius: 16px;
 }
 
+.box {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+  color: #224F5C;
+}
+
+.container-swiper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  max-width: 280px;
+  padding: 64px 36px;
+  margin: 0 16px;
+  border-radius: 16px;
+  background: linear-gradient(90.14deg, rgba(219, 85, 0, 0.039) 14.08%, rgba(255, 108, 14, 0.0315) 88.89%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide h4 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  color: #001B23;
+}
+
+.swiper-slide p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #767576;
+}
+
+.swiper-slide a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #DB5500;
+}
+
+.swiper-slide a img {
+  width: auto;
+}
+
+.link {
+  display: inline-block;
+  color: #DB5500;
+  background-image: url("/svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  font-size: 18px;
+  padding: 16px 16px 16px 40px;
+  position: relative;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 75%;
+  left: 56px;
+  width: 0%;
+  height: 2px;
+  border-radius: 2px;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  background-color: #FF6C0E;
+}
+
+.link:hover {
+  opacity: 0.8;
+  padding-left: 64px;
+  background-position: 8px 50%;
+}
+
+.link:hover::after {
+  width: 70%;
+  background-color: #FF6C0E;
+}
+
+.button-next {
+  position: absolute;
+  right: 32px;
+  top: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button-prev {
+  position: absolute;
+  right: 88px;
+  top: 24px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .bg-robo {
   -webkit-animation: bg-hero-1 3s ease infinite alternate;
           animation: bg-hero-1 3s ease infinite alternate;

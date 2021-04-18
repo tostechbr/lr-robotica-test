@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/css/style.css">
     <title>LR Robótica</title>
     <script src="js/svg-inject.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
     <!--============== HEADER ==============-->
@@ -93,5 +95,73 @@
             <img src="svg/svg-people3.svg"  alt="" onload="SVGInject(this)">
         </div>
     </section>
+    <!--============== SECTION SLIDER ==============-->
+    
+    <section class="box">
+        <h1>Nossa equipe</h1>
+    </section>
+    <section class="container-swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="photo-profile photo-1">
+                        <img src="/image/p-luciana.png" alt=""></div>
+                    <h4 class="my-1">Luciana Raposo</h4>
+                    <p class="my-1">Ceo</p>
+                    <p>
+                        <a href="" class="link">Saiba mais</a>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile photo-2"><img src="/image/p-juliette.png" alt=""></div>
+                    <h4 class="my-1">Juliette Araujo</h4>
+                    <p class="my-1">Professora</p>
+                    <p>
+                        <a href="" class="link">Saiba mais</a>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile photo-3"><img src="/image/p-duda.png" alt=""></div>
+                    <h4 class="my-1">Maria Eduarda</h4>
+                    <p class="my-1">Professora</p>
+                    <p>
+                        <a href="" class="link">Saiba mais</a>
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile photo-4"><img src="/image/p-gustavo.png" alt=""></div>
+                    <h4 class="my-1">Gustavo</h4>
+                    <p class="my-1">Desenvolvedor</p>
+                    <p>
+                        <a href="" class="link">Saiba mais</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="button-next"></div>
+        <div class="button-prev"></div>
+    </section>
+
+
+    <!--============== JS ==============-->
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 'auto',
+            spaceBetween: 40,
+            grabCursor: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                type: 'progressbar',
+            },
+            navigation: {
+                nextEl: '.button-next',
+                prevEl: '.button-prev',
+            }
+        });
+    </script>
 </body>
 </html>
