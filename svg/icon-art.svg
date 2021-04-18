@@ -1,6 +1,6 @@
 <svg width="98" height="120" viewBox="0 0 98 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="icon-art" class="art">
-<g id="iso_square" class="iso_square">
+<g id="icon-art">
+<g id="iso_square">
 <path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M6.35401 91.7425C6.37969 93.0702 7.40558 94.394 9.43168 95.407L41.569 111.476C45.6732 113.528 52.3275 113.528 56.4317 111.476L88.569 95.407C90.7526 94.3152 91.7745 92.8624 91.6345 91.4328V70.9004L53.6167 70.9004C50.7121 70.1904 47.2886 70.1904 44.384 70.9004L6.35357 70.9004L6.35357 91.6751C6.3535 91.6859 6.3535 91.6967 6.35357 91.7075L6.35357 91.7425H6.35401Z" fill="url(#paint0_linear)" fill-opacity="0.2"/>
 <rect id="Rectangle 464" x="1.48627" width="50.8859" height="50.8859" rx="7.47765" transform="matrix(0.894427 -0.447214 0.894427 0.447214 2.15691 71.5851)" fill="#F4FBFB" stroke="white" stroke-width="1.6617"/>
 <g id="Rectangle 465" filter="url(#filter0_i)">
