@@ -1330,8 +1330,7 @@ header {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -1346,8 +1345,7 @@ header {
   font-weight: bold;
 }
 
-.close-j:hover,
-.close-j:focus {
+.close-j:hover, .close-j:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -1362,8 +1360,7 @@ header {
   font-weight: bold;
 }
 
-.close-m:hover,
-.close-m:focus {
+.close-m:hover, .close-m:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -1378,11 +1375,27 @@ header {
   font-weight: bold;
 }
 
-.close-g:hover,
-.close-g:focus {
+.close-g:hover, .close-g:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.footer-container img {
+  max-width: 350px;
+}
+
+.footer-container {
+  background-color: #013342;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  color: #D5D3D0;
+}
+
+.footer-container ul{
+  list-style: none;
 }
 
 .bg-robo {
