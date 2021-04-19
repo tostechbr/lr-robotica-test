@@ -1061,6 +1061,37 @@ header {
   border: 2px solid #FF6C0E;
   padding: 6px 16px;
   border-radius: 16px;
+  /*  */
+  transition: ease-out 0.3s;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-desktop .menu-desktop .btn-contact:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-contact:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #FF6C0E;
+  border-radius: 10px;
+}
+
+.btn-contact:hover:before {
+  transition: 0.5s all ease;
+  color: #fff;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
 }
 
 .box {
@@ -1215,6 +1246,95 @@ header {
   background-position: center center;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+}
+
+.container-contact .contact-box {
+  text-align: center;
+}
+
+.container-contact .contact-box h1 {
+  color: #224F5C;
+  line-height: 110%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 52px;
+}
+
+.container-contact .contact-box p {
+  margin-bottom: .7rem;
+  font-size: 16px;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 35px;
+}
+
+/* .iframe {
+  border-radius: 50px !important;
+} */
+
+.map-text {
+  margin-top: 20px;
+}
+
+.map-text ul{
+  list-style: none;
+  margin-right: 6rem;
+}
+
+.map-text h6 {
+  font-size: 20px;
+}
+
+.map-text .btn-primary {
+  width: 200px;
+  height: 54px;
+  background: linear-gradient(90.14deg, rgba(219, 85, 0, 0.78) 14.08%, rgba(255, 108, 14, 0.63) 88.89%);
+  color: #FFF8F3;
+  border: 0;
+  border-radius: 16px;
+  margin: 1rem 0;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .bg-robo {
