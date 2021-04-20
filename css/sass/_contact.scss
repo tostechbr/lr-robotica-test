@@ -71,6 +71,24 @@
     color: #FFF8F3;
     border: 0;
     border-radius: 16px;
+
+    position: relative;
+
+       &::after{
+          content: '';
+          position: absolute;
+          top: -1px;
+          left: -1px;
+                
+          border-radius: 16px; 
+          z-index: -1;
+        
+          width: 0%;
+          height: 103%;
+          transition: .5s ease;
+              
+          background: #FD863C;
+      }
   }
   
   

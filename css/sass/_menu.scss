@@ -1,17 +1,30 @@
 header {
     width: 100%;
-    height: 72px;
 
+    padding: 8px 10px;
+    background: $white-light;
+    box-shadow: none;
+
+    position: fixed;
+    z-index: 999;
 }
 .navbar-desktop {
     max-width: 1200px;
     margin: 0 auto;
-    
+
     padding: 1rem 1rem;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
+    @include responsive(m){
+        display: none;
+    }
+    @include responsive(s){
+        display: none;
+    }
 
     img {
         width: 50px;
@@ -23,12 +36,6 @@ header {
         align-items: center;
         justify-content: space-between;
 
-        @include responsive(m){
-            display: none;
-        }
-        @include responsive(s){
-            display: none;
-        }
 
         .menu-item {
             margin-right: 1rem;
@@ -45,7 +52,184 @@ header {
             border: 2px solid #FF6C0E;
             padding: 6px 16px;
             border-radius: 16px;
+
+            position: relative;
+
+            &::after{
+                content: '';
+                position: absolute;
+                top: -1px;
+                left: -1px;
+                
+                border-radius: 16px; 
+                z-index: -1;
+        
+                width: 0%;
+                height: 103%;
+                transition: .8s ease;
+        
+                background: #FD863C;
+            }
+    
+            &:hover{
+                &::after{
+                    width: 102%;
+                }
+            }
         }
     }
 
+}
+.navbar-mobile {
+    max-width: $container-xl;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+    display: none;
+
+    @include responsive(m){
+        display: flex;
+    }
+    @include responsive(s){
+        display: flex;
+    }
+}
+
+.bx {
+    width: 36px;
+    height: 36px;
+    
+
+    position: relative;
+    cursor: pointer;
+    z-index: 999;
+    transition: .7s ease;
+    
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 40%;
+        left: 17%;
+
+        width: 70%;
+        height: 2px;
+        transition: .7s ease;
+
+        background-color: $primary-normal;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 64%;
+        left: 17%;
+
+        width: 70%;
+        height: 2px;
+        transition: .7s ease;
+
+        background-color: $primary-normal;
+    }
+}
+
+.active-bx{
+    width: 36px;
+    height: 36px;
+    
+
+    position: relative;
+    cursor: pointer;
+    z-index: 800;
+    transition: .7s ease;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 17%;
+
+        transform: rotate(-135deg);
+
+        width: 70%;
+        height: 2px;
+
+        background-color: $primary-normal;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 17%;
+
+        transform: rotate(-405deg);
+
+        width: 70%;
+        height: 2px;
+
+        background-color: $primary-normal;
+    }
+
+}
+
+.menu-mobile {
+    background-color: $white-normal;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    pointer-events: none;
+    z-index: 888;
+
+    transition: 1s ease;  
+}
+
+.nav-list-mobile{
+    height: 70vh;
+    max-width: 1200px;
+    list-style: none;
+    
+   padding: 2rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: 7s ease;
+}
+
+.nav-link-mobile {
+    display: inline-block;
+    @include typeface-1(h3, desktop);
+    color: $gray-2;
+
+    padding: 16px 24px;
+    
+    position: relative;
+
+    &::after{
+        content: '';
+        position: absolute;
+        top: 90%;
+        left: 16px;
+
+        width: 0;
+        height: 2px;
+
+        transition: 1s ease;
+
+        background-color: $secondary-normal;
+    }
+    &:hover{
+        color: $primary-normal;
+
+        &:after{
+            width: 100%;
+        }
+    }
 }

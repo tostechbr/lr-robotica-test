@@ -20,26 +20,44 @@
 
 <body>
   <!--============== HEADER ==============-->
-  <!--DESKTOP NAVBAR-->
-  <header class="header">
-    <nav class="navbar-desktop">
-      <img src="/image/favicon.png" alt="Lr Robótica" />
-      <ul class="menu-desktop">
-        <li class="menu-item"><a href="">Início</a></li>
-        <li class="menu-item"><a href="">Aprendizado</a></li>
-        <li class="menu-item"><a href="">Equipe</a></li>
-        <li class="menu-item"><a href="">Estrutura</a></li>
-        <li class="menu-item"><a href="">Contato</a></li>
-        <a href="" class="btn-contact">Peça um orçamento</a>
-      </ul>
+  <header id="header">
+  <!--NAVBAR MOBILE-->
+    <nav class="navbar-mobile">
+      <div class="logo"><a href=""><img src="/image/favicon.png" alt="Lr Robótica" /></a></div>
+      <div class="bx" id="bx"></div>
     </nav>
-  </header>
+
+    <!--MENU MOBILE-->
+    <nav class="menu-mobile" id="menu-mobile"> 
+      <ul class="nav-list-mobile ">
+          <li><a href="" class="nav-link-mobile ">Início</a></li>
+          <li><a href="" class="nav-link-mobile">Aprendizado</a></li>
+          <li><a href="" class="nav-link-mobile">Equipe</a></li>
+          <li><a href="" class="nav-link-mobile">Estrutura</a></li>
+          <li><a href="" class="nav-link-mobile">Contato</a></li>
+      </ul>
+  </nav>
+  <!--DESKTOP NAVBAR-->
+  <nav class="navbar-desktop ">
+    <img src="/image/favicon.png" alt="Lr Robótica" />
+    <ul class="menu-desktop">
+      <li class="menu-item"><a href="">Início</a></li>
+      <li class="menu-item"><a href="">Aprendizado</a></li>
+      <li class="menu-item"><a href="">Equipe</a></li>
+      <li class="menu-item"><a href="">Estrutura</a></li>
+      <li class="menu-item"><a href="">Contato</a></li>
+      <a href="" class="btn-contact">Peça um orçamento</a>
+    </ul>
+  </nav>
+</header>
+  
   <!--======= HERO =======-->
   <div class="bg-hero">
     <img src="/svg/bg-hero.svg" class="svg-bg-home" alt="" onload="SVGInject(this)" />
   </div>
   <main class="container">
-    <h1>Um futuro melhor para seus filhos</h1>
+    <div class="hero-1">
+      <h1>Um futuro melhor para seus filhos</h1>
     <p>
       Aqui se aprende tecnologia, programação<br />
       de games, robótica, lógica e muito mais.
@@ -50,6 +68,7 @@
       <button class="btn-secundary">
         Apresentação<img src="/svg/youtube.svg" alt="" />
       </button>
+    </div>
     </div>
   </main>
   <!--======= SECTION TOPICS =======-->
@@ -128,6 +147,7 @@
   <section class="box">
     <h1>Nossa equipe</h1>
   </section>
+
   <section class="container-swiper">
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -247,6 +267,52 @@
           </p>
           <p>Eficácia na resolução de problemas</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!--======= TEACHING =======-->
+  <section class="container">
+    <div class="box-t">
+      <h5>níveis</h5>
+      <h2>de Ensino.</h2>
+    </div>
+    <div class="teaching">
+      <div class="box-teaching">
+        <h4><img src="svg/01.svg" alt="">Educação Infantil</h4>
+        <p>Através de vivências
+          articuladas aos campos
+          de experiências as
+          crianças são desafiadas a
+          ciência de si e do mundo.
+          </p>
+      </div>
+      <div class="box-teaching">
+        <h4><img src="svg/02.svg" alt="">Fundamental I</h4>
+        <p>Através de vivências
+          articuladas aos campos
+          de experiências as
+          crianças são desafiadas a
+          ciência de si e do mundo.
+          </p>
+      </div>
+      <div class="box-teaching">
+        <h4><img src="svg/03.svg" alt="">Fundamental II</h4>
+        <p>Através de vivências
+          articuladas aos campos
+          de experiências as
+          crianças são desafiadas a
+          ciência de si e do mundo.
+          </p>
+      </div>
+      <div class="box-teaching">
+        <h4><img src="svg/04.svg" alt="">Ensino Médio</h4>
+        <p>Através de vivências
+          articuladas aos campos
+          de experiências as
+          crianças são desafiadas a
+          ciência de si e do mundo.
+          </p>
       </div>
     </div>
   </section>

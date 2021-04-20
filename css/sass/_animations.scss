@@ -10,13 +10,13 @@
     animation: bg-hero-3 3s 1s ease infinite alternate;
 }
 .bg-astronaut {
-    animation: bg-hero-2 3s 0.7s ease infinite alternate;
+    animation: bg-hero-4 3s 0.4s ease infinite alternate;
 }
 .bg-world {
-    animation: bg-hero-3 3s 1.2s ease infinite alternate;
+    animation: bg-hero-2 3s 1.2s ease infinite alternate;
 }
 .bg-medalha {
-    animation: bg-hero-1 3s .4s ease infinite alternate;
+    animation: bg-hero-4 3s 3s ease infinite alternate;
 }
 .bg-robo-2 {
     animation: bg-hero-2 3s 2s ease infinite alternate;
@@ -43,6 +43,14 @@
     }
     100%{
         transform: translateY(-20px);
+    }
+}
+@keyframes bg-hero-4{
+    0% {
+        transform: translate3d(0,90px,0);
+    }
+    100%{
+        transform: translateY(160px);
     }
 }
 
