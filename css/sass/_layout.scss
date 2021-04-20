@@ -215,11 +215,12 @@ $container-s: 540px; // Mobile small
             width: 140px;
             height: 140px;
         }
-        h1 {
+        h4 {
             font-weight: 400;
             color: $secondary-normal;
             letter-spacing: 0.05em;
             line-height: 120%;
+            margin-top: 1rem;
         }
         p {
             font-weight: 400;

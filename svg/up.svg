@@ -1,0 +1,16 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="up">
+<g clip-path="url(#clip0)">
+<rect width="40" height="40" rx="5" fill="white"/>
+<g id="up_2">
+<rect id="Rectangle 1034" x="15" y="13" width="40" height="40" rx="8" fill="white"/>
+<path id="cima" d="M24.2249 22.0586L19.4362 17.0586L14.6475 22.0586" stroke="#224F5C" stroke-width="1.25926" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="40" height="40" rx="5" fill="white"/>
+</clipPath>
+</defs>
+</svg>
