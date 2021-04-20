@@ -618,8 +618,8 @@
   margin-top: 2.5rem;
   text-align: center;
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10.96%, #FFFFFF), to(white));
-  background: linear-gradient(180deg, #FFFFFF 10.96%, white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FFFFFF), to(white));
+  background: linear-gradient(180deg, #FFFFFF 50%, white 100%);
   background-clip: padding-box;
   border: solid 1px solid;
   border-radius: 1em;
