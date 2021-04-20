@@ -1381,21 +1381,53 @@ header {
   cursor: pointer;
 }
 
-.footer-container img {
+.footer-container {
+  background-color: #013342;
+}
+
+.footer {
+  width: 80%;
+  background-color: #013342;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px white solid;
+}
+
+.footer-logo img {
   max-width: 350px;
 }
 
-.footer-container {
-  background-color: #013342;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
-  align-items: center;
+.footer-logo p {
   color: #D5D3D0;
 }
 
-.footer-container ul{
-  list-style: none;
+.footer-heading p {
+  color: #D5D3D0;
+  padding-top: 3px;
+}
+
+.footer-content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-content p{
+  color: #d6d4d1;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons svg {
+  max-width: 36px;
 }
 
 .bg-robo {
