@@ -471,9 +471,6 @@ $container-s: 540px; // Mobile small
         line-height: 110%;
         color: $secondary-light;
     }
-    @include responsive(l){
-        margin-left: 10rem;
-    }
 }
 .teaching{
     display: flex;

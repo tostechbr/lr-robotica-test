@@ -602,12 +602,6 @@
   color: #224F5C;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 960px) {
-  .box-t {
-    margin-left: 10rem;
-  }
-}
-
 .teaching {
   display: -webkit-box;
   display: -ms-flexbox;
