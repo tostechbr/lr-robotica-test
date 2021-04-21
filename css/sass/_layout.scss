@@ -432,6 +432,8 @@ $container-s: 540px; // Mobile small
 }
 .card-1-pc {
     max-width: 540px;
+    height: 300px;
+
     margin: 0 auto;
     background: #FFFFFF;
 
@@ -486,8 +488,8 @@ $container-s: 540px; // Mobile small
     }
 }
 .box-teaching {
-    max-width: 280px;
-    
+    width: 300px;
+    height: 260px;
     margin: 2rem 1rem;
 
     text-align: center;
