@@ -620,15 +620,6 @@
           align-items: center;
 }
 
-@media screen and (max-width: 1200px) and (min-width: 960px) {
-  .teaching {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 @media screen and (max-width: 960px) and (min-width: 720px) {
   .teaching {
     -webkit-box-orient: vertical;

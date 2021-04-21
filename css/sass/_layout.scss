@@ -481,9 +481,6 @@ $container-s: 540px; // Mobile small
     align-items: center;
 
     
-    @include responsive(l){
-        flex-direction: column;
-    }
     @include responsive(m){
         flex-direction: column;
     }
