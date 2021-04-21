@@ -500,7 +500,7 @@ $container-s: 540px; // Mobile small
     background: linear-gradient(180deg, #FFFFFF 50%, rgb(255, 255, 255) 100%);
     background-clip: padding-box;
     border: solid $border solid;
-    border-radius: 1em;
+    border-radius: 24px;
 
     h4 {
         color: $secondary-dark;

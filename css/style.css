@@ -643,7 +643,7 @@
   background: linear-gradient(180deg, #FFFFFF 50%, white 100%);
   background-clip: padding-box;
   border: solid 1px solid;
-  border-radius: 1em;
+  border-radius: 24px;
 }
 
 .box-teaching h4 {
@@ -1913,7 +1913,7 @@ header {
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
@@ -1937,7 +1937,7 @@ header {
 .modal-l {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 999;
   left: 0;
   top: 0;
   width: 100%;
@@ -1948,14 +1948,15 @@ header {
 }
 
 .modal-content-l {
-  background-color: #fefefe;
+  background: #FFF8F3;
+  -webkit-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
   width: 450px;
   height: 350px;
   border-radius: 16px;
+  position: relative;
 }
 
 .modal-img-l {
@@ -1985,9 +1986,44 @@ header {
 }
 
 .modal-text-l p {
-  width: 83%;
+  padding: 16px 24px;
   margin: 0 auto;
-  text-align: justify;
+  font-weight: 500;
+  color: #474749;
+}
+
+.modal-links-l {
+  border-radius: 0px 0px 16px 16px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 24px;
+  background: linear-gradient(90.14deg, rgba(219, 85, 0, 0.078) 14.08%, rgba(255, 108, 14, 0.063) 88.89%);
+}
+
+.modal-links-l img {
+  width: 50px;
+  height: 50px;
+}
+
+.modal-links-l a {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.modal-links-l a:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .close {
