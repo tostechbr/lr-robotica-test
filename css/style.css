@@ -2354,6 +2354,49 @@ header {
   cursor: pointer;
 }
 
+.modal-email {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  background-color: black;
+  background-color: #fff8f3cc;
+}
+
+.modal-email-content {
+  background: #FFF8F3;
+  -webkit-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+  margin: 10% auto;
+  width: 450px;
+  height: 350px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.close-email {
+  color: #aaa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+  top: 0;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-email:hover, .close-email:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .contact-box h1 {
   font-weight: bold;
   font-size: 48px;

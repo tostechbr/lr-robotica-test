@@ -1,5 +1,4 @@
 // MENU MOBILE
-
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId);
   const nav = document.getElementById(navId);
@@ -64,4 +63,22 @@ btnG.onclick = function () {
 
 spanG.onclick = function () {
   modalG.style.display = "none";
+}
+
+// MODAL EMAIL BOTÃO
+var modalEmail = document.getElementById("email-modal");
+var btnEmailHero = document.getElementById("btnEmailHero");
+var btnEmailContact = document.getElementById("btnEmailContact");
+var closeEmailModal = document.getElementsByClassName("close-email")[0];
+
+btnEmailHero.onclick = function () {
+  modalEmail.style.display = "block";
+}
+
+btnEmailContact.onclick = function () {
+  modalEmail.style.display = "block";
+}
+
+closeEmailModal.onclick = function () {
+  modalEmail.style.display = "none";
 }
