@@ -21,6 +21,27 @@
 .bg-robo-2 {
     animation: bg-hero-2 3s 2s ease infinite alternate;
 }
+.robo-1-m {
+    animation: bg-hero-1 3s ease infinite alternate;
+}
+.verific-m{
+    animation: bg-hero-3 3s 1s ease infinite alternate;
+}
+.robo-2-m {
+    animation: bg-hero-2 3s 2s ease infinite alternate;
+}
+.medalha-m {
+    animation: bg-hero-3 3s 3s ease infinite alternate;
+}
+.rocket-m{
+    animation: bg-hero-3 3s 0.5s ease infinite alternate;
+}
+.astronaut-m{
+    animation: bg-hero-3 3s 0.4s ease infinite alternate;
+}
+.world-m{
+    animation: bg-hero-2 3s 1.2s ease infinite alternate;
+}
 @keyframes bg-hero-1{
     0% {
         transform: translate3d(0,0,0);
