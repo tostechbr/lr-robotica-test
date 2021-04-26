@@ -2440,14 +2440,65 @@ header {
 }
 
 .modal-email-content {
-  background: #FFF8F3;
+  background: #ffffff;
   -webkit-box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
-  width: 450px;
-  height: 350px;
+  width: 600px;
+  height: 450px;
   border-radius: 16px;
   position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.gradiente {
+  border: solid 1px solid;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 1px;
+  -o-border-image: linear-gradient(to left, #FD863C, #DB5500) 0 1 100%;
+     border-image: -webkit-gradient(linear, right top, left top, from(#FD863C), to(#DB5500)) 0 1 100%;
+     border-image: linear-gradient(to left, #FD863C, #DB5500) 0 1 100%;
+}
+
+.gradiente:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff6a0ef6), color-stop(60%, rgba(255, 99, 0, 0)));
+  background: linear-gradient(180deg, #ff6a0ef6 0%, rgba(255, 99, 0, 0) 60%);
 }
 
 .close-email {
@@ -2457,10 +2508,13 @@ header {
   display: flex;
   -ms-flex-item-align: baseline;
       align-self: baseline;
-  top: 0;
   font-size: 28px;
   font-weight: bold;
   padding-left: 20px;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  cursor: pointer;
 }
 
 .close-email:hover, .close-email:focus {
