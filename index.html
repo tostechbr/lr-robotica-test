@@ -486,20 +486,37 @@
         <span class="close-email">&times;</span>
         <!--============== Formulario ==============-->
 
-        <form action="#" class="form">
-          <div class="inputs">
-            <label for="name">Nome</label>
-            <input class="gradiente" type="text" placeholder="name" />
-          </div>
-          <div class="inputs">
-            <label for="email">Email</label>
-            <input class="gradiente" type="email" placeholder="email" />
-          </div>
-          <div class="inputs">
-            <label for="message">Mensagem</label>
-            <textarea class="gradiente" name="message" rows="10" cols="30"></textarea>
+        <form  method="post" action="/success" name="contact" netlify>
+          <div class="formulario">
+            <div class="form-name">
+              <label for="nome"><strong>Nome</strong></label>
+              <input type="text" name="nome" id="nome" required placeholder>
+            </div>
+
+            <div class="form-email">
+              <label for="email"><strong>Email</strong></label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            
+            <div class="form-email">
+              <label for="email"><strong>Email</strong></label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form-layout">
+              
+              
+            </div>
+
+            <div class="form-projeto">
+              <label><strong>Mensagens</strong></label>
+              <textarea name="mensagem" id="mensagem" ></textarea>
+            </div>
+
+            <input type="submit" value="Enviar" class="btn-submit">
           </div>
         </form>
+        
       </div>
     </div>
   </section>
