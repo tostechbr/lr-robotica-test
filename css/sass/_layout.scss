@@ -310,6 +310,9 @@ $container-s: 540px; // Mobile small
     text-align: center;
 
     h1 {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 110%;
         color: $secondary-light;
         margin-bottom: 1rem;
     }

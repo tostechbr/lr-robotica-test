@@ -380,6 +380,9 @@
 }
 
 .container-business h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 110%;
   color: #224F5C;
   margin-bottom: 1rem;
 }
@@ -2210,9 +2213,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2221,8 +2224,7 @@ header {
 }
 
 .modal-links-l img {
-  width: 50px;
-  height: 50px;
+  padding: 0rem 2rem;
 }
 
 .modal-links-l a {
@@ -2329,9 +2331,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2340,8 +2342,7 @@ header {
 }
 
 .modal-links-j img {
-  width: 50px;
-  height: 50px;
+  padding: 0rem 2rem;
 }
 
 .modal-links-j a {
@@ -2448,9 +2449,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2459,8 +2460,7 @@ header {
 }
 
 .modal-links-m img {
-  width: 50px;
-  height: 50px;
+  padding: 0rem 2rem;
 }
 
 .modal-links-m a {
@@ -2567,9 +2567,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -2578,8 +2578,7 @@ header {
 }
 
 .modal-links-g img {
-  width: 50px;
-  height: 50px;
+  padding: 0rem 2rem;
 }
 
 .modal-links-g a {
