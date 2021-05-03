@@ -144,7 +144,7 @@ $container-s: 540px; // Mobile small
         justify-content: center;
         align-items: center;
     }
-    .btn-primary {
+    .btn-secundary {
         width: 200px;
         height: 54px;
 
@@ -158,6 +158,15 @@ $container-s: 540px; // Mobile small
         border: 0;
         border-radius: 16px; 
 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            margin-left: 8px;
+            width: auto;
+        }
+
         &:hover{
             transform: scale(1.05);
             &::after{
@@ -168,7 +177,7 @@ $container-s: 540px; // Mobile small
             }
         }
     }
-    .btn-secundary{
+    .btn-primary{
         width: 200px;
         height: 54px;
 
@@ -183,8 +192,10 @@ $container-s: 540px; // Mobile small
 
         position: relative;
 
+
         &::after{
             content: '';
+            
             position: absolute;
             top: -1px;
             left: -1px;
@@ -196,7 +207,7 @@ $container-s: 540px; // Mobile small
             height: 103%;
             transition: .8s ease;
     
-            background: linear-gradient(225deg, #EA1D22 0%, #B31317 100%);
+            background: #224F5C;
         }
 
         &:hover{
