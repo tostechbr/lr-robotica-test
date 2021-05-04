@@ -1,5 +1,8 @@
-<svg width="456" height="660" viewBox="0 0 456 660" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="456" height="660" fill="transparent"/>
-<image class="people1" href="image/people2.png" width="456" height="660"/>
-<image class="people2" href="image/people1.png" width="456" height="660"/>
+<svg width="867" height="456" viewBox="0 0 867 456" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="456" width="456" height="867" transform="rotate(-90 0 456)" fill="transparent"/>
+<rect y="456" width="456" height="867" rx="60" transform="rotate(-90 0 456)" fill="transparent"/>
+
+<image class="people1" href="image/people1.png" width="867" height="456"/>
+<image class="people2" href="image/people6.png" width="867" height="456"/>
+
 </svg>

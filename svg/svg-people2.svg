@@ -1,7 +1,12 @@
-<svg width="324" height="475" viewBox="0 0 324 475" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="svg-people2">
-<rect id="Rectangle 1005" width="324" height="475" rx="45" fill="#FEFBFF"/>
-<image class="people3" href="image/people3.png" width="324" height="475"/>
-<image class="people4" href="image/people4.png" width="324" height="475"/>
+<svg width="475" height="324" viewBox="0 0 475 324" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect y="324" width="324" height="475" rx="45" transform="rotate(-90 0 324)" fill="#FEFBFF"/>
 </g>
+<defs>
+<clipPath id="clip0">
+<rect width="324" height="475" fill="white" transform="translate(0 324) rotate(-90)"/>
+</clipPath>
+</defs>
+<image class="people3" href="image/people2.png" width="475" height="324"/>
+<image class="people4" href="image/people4.png" width="475" height="324"/>
 </svg>

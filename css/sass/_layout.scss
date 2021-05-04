@@ -368,11 +368,22 @@ $container-s: 540px; // Mobile small
     }
 }
 
-.p-item-3 {
+/*.p-item-3 {
     #people2 {
         margin-bottom: 1rem;
     }
+}*/
+.imgs {
+    padding: 1rem 1rem;
 }
+.img-2 {
+    display: flex;
+
+    #people2 {
+        margin-right: 1rem;
+    }
+}
+/* SECTION EVOLUTION */
 .container-evolution {
     max-width: 1200px;
     margin: 0 auto;

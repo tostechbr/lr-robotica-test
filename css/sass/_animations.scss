@@ -108,12 +108,12 @@
     opacity: 0;
     animation: people 10s ease 8s infinite;
 }
-#people2{
+#people1{
     @include responsive(m){
-        display: none;
+       display: none;
     }
 }
-#people2{
+#people1{
     @include responsive(s){
         display: none;
     }
