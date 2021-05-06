@@ -66,7 +66,7 @@
 
       <div class="btns">
         <button id="btnEmailHero" class="btn-secundary">Entrar em contato <img src="/svg/wwp-icon.svg" alt=""></button>
-        <button class="btn-primary">
+        <button id="btnParceiro" class="btn-primary">
           Seja nosso parceiro
         </button>
       </div>
@@ -80,16 +80,16 @@
         <div class="item-1-c">
           <img src="/svg/robot-1.svg" alt="" onload="SVGInject(this)" />
           <h4>Robótica Educational</h4>
-        <p>
-          Desenvolva pensamento computacional,
-          criatividade e trabalho em equipe, imerso num ambiente que favorece o contato com as tecnologias do futuro.
-        </p>
+          <p>
+            Desenvolva pensamento computacional,
+            criatividade e trabalho em equipe, imerso num ambiente que favorece o contato com as tecnologias do futuro.
+          </p>
         </div>
       </div>
       <div class="item-1">
         <div class="item-1-c">
           <img src="/svg/art-2.svg" alt="" onload="SVGInject(this)" />
-            <h4>Arte Digital</h4>
+          <h4>Arte Digital</h4>
           <p>
             Use sua imaginação, invente novos universos, e se torne o melhor artista que você pode ser.
           </p>
@@ -101,7 +101,8 @@
           <h4>Formação de Profissionais
           </h4>
           <p>
-            Conheça a teoria por trás da robótica educacional e aprenda projetos práticos utilizando kits Lego, placas de
+            Conheça a teoria por trás da robótica educacional e aprenda projetos práticos utilizando kits Lego, placas
+            de
             prototipagem e materiais acessíveis e sustentáveis.
           </p>
         </div>
@@ -110,7 +111,7 @@
   </section>
 
   <!--======= SECTION PEOPLE =======-->
-  <section class="container-people" id="people" >
+  <section class="container-people" id="people">
     <div class="p-item-1 flex-item-4">
       <h5>Proposta</h5>
       <h2>Pedagógica.</h2>
@@ -170,13 +171,13 @@
         <img src="/svg/bg-evolution.svg" alt="" onload="SVGInject(this)">
       </div>
       <div class="cards-e-item-1">
-        <div class="card-1">
+        <div id="btnControle" class="card-1">
           <img src="/svg/icon-control.svg" alt="Controle">
           <div class="text-e">
             <h4>Controle</h4>
           </div>
         </div>
-        <div class="card-1">
+        <div id="btnMecanica" class="card-1">
           <img src="/svg/icon-mec.svg" alt="" />
           <div class="text-e">
             <h4>Mecânica</h4>
@@ -184,13 +185,13 @@
         </div>
       </div>
       <div class="cards-e-item-1">
-        <div class="card-1">
+        <div id="btnEletronica" class="card-1">
           <img src="/svg/icon-eletric.svg" alt="" />
           <div class="text-e">
             <h4>Eletrônica</h4>
           </div>
         </div>
-        <div class="card-1">
+        <div id="btnDesign" class="card-1">
           <img src="/svg/icon-art.svg" alt="" />
           <div class="text-e">
             <h4>Design</h4>
@@ -198,13 +199,13 @@
         </div>
       </div>
       <div class="cards-e-item-1">
-        <div class="card-1">
+        <div id="btnProgramacao" class="card-1">
           <img src="/svg/icon-programing.svg" alt="" />
           <div class="text-e">
             <h4>Programação</h4>
           </div>
         </div>
-        <div class="card-1">
+        <div id="btnSustentabilidade" class="card-1">
           <img src="/svg/icon-planet-s.svg" alt="" />
           <div class="text-e">
             <h4>Sustentabilidade</h4>
@@ -319,7 +320,56 @@
     <div class="button-prev"></div>
   </section>
 
+  <!--======= SECTION BUSINESS =======-->
 
+  <section class="container-business" id="business">
+    <h1>Empresas que confiam <br />no nosso trabalho</h1>
+    <div class="business">
+      <img src="/svg/bg-empresas.svg" alt="" onload="SVGInject(this)" />
+    </div>
+  </section>
+
+  <!--============== SECTION CONTACT ==============-->
+
+  <section class="container">
+    <div class="contact-box">
+      <h1>Contato</h1>
+      <p>Forme pessoas capazes de mudar o mundo!</p>
+    </div>
+    <div class="map-container">
+      <div class="map-text">
+        <ul>
+          <h4>Sede localizada:</h4>
+          <li>
+            <p>Rua Dr. Nilo Bezerra Ramalho, 1706 Tirol, Natal/RN</p>
+          </li>
+          <li>
+            <p>59015-300</p>
+          </li>
+        </ul>
+        <ul>
+          <h4>Telefone:</h4>
+          <li>
+            <p>(84) 9 98139-2243</p>
+          </li>
+        </ul>
+        <ul>
+          <h4>Email:</h4>
+          <li>
+            <p>lrrobotica@gmail.com</p>
+          </li>
+        </ul>
+        <button id="btnEmailContact" class="btn-secundary">Entrar em contato</button>
+      </div>
+      <div class="map-responsive">
+        <iframe class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31754.497217137974!2d-35.218475460449234!3d-5.811517000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffba1ad345c7%3A0x4115bca077d9784d!2sLuciana%20Raposo%20Academia%20de%20Rob%C3%B3tica!5e0!3m2!1spt-BR!2sbr!4v1618838977838!5m2!1spt-BR!2sbr"
+          style="border-radius: 16px 16px 16px 16px; border: 0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!--============== SECTION ALL MODALS ==============-->
   <!--============== SECTION MODAL NOSSA EQUIPE ==============-->
   <section>
     <div id="myModal" class="modal-l">
@@ -432,56 +482,6 @@
     </div>
   </section>
 
-  <!--======= SECTION BUSINESS =======-->
-
-  <section class="container-business" id="business">
-    <h1>Empresas que confiam <br />no nosso trabalho</h1>
-    <div class="business">
-      <img src="/svg/bg-empresas.svg" alt="" onload="SVGInject(this)" />
-    </div>
-  </section>
-
-  <!--============== SECTION CONTACT ==============-->
-
-  <section class="container">
-    <div class="contact-box">
-      <h1>Contato</h1>
-      <p>Forme pessoas capazes de mudar o mundo!</p>
-    </div>
-    <div class="map-container">
-      <div class="map-text">
-        <ul>
-          <h4>Sede localizada:</h4>
-          <li>
-            <p>Rua Dr. Nilo Bezerra Ramalho, 1706 Tirol, Natal/RN</p>
-          </li>
-          <li>
-            <p>59015-300</p>
-          </li>
-        </ul>
-        <ul>
-          <h4>Telefone:</h4>
-          <li>
-            <p>(84) 9 98139-2243</p>
-          </li>
-        </ul>
-        <ul>
-          <h4>Email:</h4>
-          <li>
-            <p>lrrobotica@gmail.com</p>
-          </li>
-        </ul>
-        <button id="btnEmailContact" class="btn-secundary">Entrar em contato</button>
-      </div>
-      <div class="map-responsive">
-        <iframe class="iframe"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31754.497217137974!2d-35.218475460449234!3d-5.811517000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffba1ad345c7%3A0x4115bca077d9784d!2sLuciana%20Raposo%20Academia%20de%20Rob%C3%B3tica!5e0!3m2!1spt-BR!2sbr!4v1618838977838!5m2!1spt-BR!2sbr"
-          style="border-radius: 16px 16px 16px 16px; border: 0;" allowfullscreen loading="lazy"></iframe>
-      </div>
-    </div>
-  </section>
-
-
   <!--============== SECTION MODAL CONTATO ==============-->
 
   <section>
@@ -496,21 +496,84 @@
               <label for="nome"><strong>Nome</strong></label>
               <input type="text" name="nome" id="nome" required placeholder>
             </div>
-
             <div class="form-email">
               <label for="email"><strong>Email</strong></label>
               <input type="email" name="email" id="email" required>
             </div>
-
             <div class="form-projeto">
               <label><strong>Mensagens</strong></label>
               <textarea name="mensagem" id="mensagem"></textarea>
             </div>
-
             <input type="submit" value="Enviar" class="btn-submit">
           </div>
         </form>
+      </div>
+    </div>
+  </section>
 
+  <!--============== SECTION MODAL SEJA NOSSO PARCEIRO ==============-->
+
+  <section>
+    <div id="parceiro-modal" class="parceiro-modal">
+      <div class="parceiro-modal-content">
+        Seja nosso parceiro
+        <span class="close-parceiro">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <!--============== SECTION MODALS TRAJETÓRIA DA EVOLUÇÃO ==============-->
+
+  <section>
+    <div id="controle-modal" class="controle-modal">
+      <div class="controle-modal-content">
+        Controle
+        <span class="close-controle">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="mecanica-modal" class="mecanica-modal">
+      <div class="mecanica-modal-content">
+        Mecânica
+        <span class="close-mecanica">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="eletronica-modal" class="eletronica-modal">
+      <div class="eletronica-modal-content">
+        Eletronica
+        <span class="close-eletronica">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="design-modal" class="design-modal">
+      <div class="design-modal-content">
+        Design
+        <span class="close-design">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="programacao-modal" class="programacao-modal">
+      <div class="programacao-modal-content">
+        Programação
+        <span class="close-programacao">&times;</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div id="sustentabilidade-modal" class="sustentabilidade-modal">
+      <div class="sustentabilidade-modal-content">
+        Sustentabilidade
+        <span class="close-sustentabilidade">&times;</span>
       </div>
     </div>
   </section>

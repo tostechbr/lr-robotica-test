@@ -481,3 +481,293 @@
     cursor: pointer;
   }
 
+// MODAL SEJA NOSSO PARCEIRO
+
+.parceiro-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.parceiro-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-parceiro {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-parceiro:hover, .close-parceiro:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+// Trajetoria da evolução modais
+
+.controle-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.controle-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-controle {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-controle:hover, .close-controle:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mecanica-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.mecanica-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-mecanica {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-mecanica:hover, .close-mecanica:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.eletronica-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.eletronica-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-eletronica {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-eletronica:hover, .close-eletronica:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.design-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.design-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-design {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-design:hover, .close-design:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.programacao-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.programacao-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-programacao {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-programacao:hover, .close-programacao:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sustentabilidade-modal {
+  display: none; 
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: none; 
+    background-color: rgb(0,0,0); 
+    background-color: #fff8f3cc;
+}
+
+.sustentabilidade-modal-content {
+  background: #FFF8F3;
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+    margin: 10% auto; /* 15% from the top and centered */
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.close-sustentabilidade {
+  color: #aaa;
+  display: flex;
+  align-self: baseline;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.close-sustentabilidade:hover, .close-sustentabilidade:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

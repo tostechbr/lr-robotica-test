@@ -82,3 +82,90 @@ btnEmailContact.onclick = function () {
 closeEmailModal.onclick = function () {
   modalEmail.style.display = "none";
 }
+
+// MODAL PARCEIRO BOTÃO
+var modalParceiro = document.getElementById("parceiro-modal");
+var btnParceiro = document.getElementById("btnParceiro");
+var spanParceiro = document.getElementsByClassName("close-parceiro")[0];
+
+btnParceiro.onclick = function () {
+  modalParceiro.style.display = "block";
+}
+
+spanParceiro.onclick = function () {
+  modalParceiro.style.display = "none";
+}
+
+// Trajetoria da evolução modais
+
+var modalControle = document.getElementById("controle-modal");
+var btnControle = document.getElementById("btnControle");
+var spanControle = document.getElementsByClassName("close-controle")[0];
+
+btnControle.onclick = function () {
+  modalControle.style.display = "block";
+}
+
+spanControle.onclick = function () {
+  modalControle.style.display = "none";
+}
+
+var modalMecanica = document.getElementById("mecanica-modal");
+var btnMecanica = document.getElementById("btnMecanica");
+var spanMecanica = document.getElementsByClassName("close-mecanica")[0];
+
+btnMecanica.onclick = function () {
+  modalMecanica.style.display = "block";
+}
+
+spanMecanica.onclick = function () {
+  modalMecanica.style.display = "none";
+}
+
+var modalEletronica = document.getElementById("eletronica-modal");
+var btnEletronica = document.getElementById("btnEletronica");
+var spanEletronica = document.getElementsByClassName("close-eletronica")[0];
+
+btnEletronica.onclick = function () {
+  modalEletronica.style.display = "block";
+}
+
+spanEletronica.onclick = function () {
+  modalEletronica.style.display = "none";
+}
+
+var modalDesign = document.getElementById("design-modal");
+var btnDesign = document.getElementById("btnDesign");
+var spanDesign = document.getElementsByClassName("close-design")[0];
+
+btnDesign.onclick = function () {
+  modalDesign.style.display = "block";
+}
+
+spanDesign.onclick = function () {
+  modalDesign.style.display = "none";
+}
+
+var modalProgramacao = document.getElementById("programacao-modal");
+var btnProgramacao = document.getElementById("btnProgramacao");
+var spanProgramacao = document.getElementsByClassName("close-programacao")[0];
+
+btnProgramacao.onclick = function () {
+  modalProgramacao.style.display = "block";
+}
+
+spanProgramacao.onclick = function () {
+  modalProgramacao.style.display = "none";
+}
+
+var modalSustentabilidade = document.getElementById("sustentabilidade-modal");
+var btnSustentabilidade = document.getElementById("btnSustentabilidade");
+var spanSustentabilidade = document.getElementsByClassName("close-sustentabilidade")[0];
+
+btnSustentabilidade.onclick = function () {
+  modalSustentabilidade.style.display = "block";
+}
+
+spanSustentabilidade.onclick = function () {
+  modalSustentabilidade.style.display = "none";
+}
