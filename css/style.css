@@ -2755,7 +2755,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -2801,7 +2801,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -2847,7 +2847,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -2893,7 +2893,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -2939,7 +2939,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -2985,7 +2985,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 350px;
+  height: 150px;
   border-radius: 16px;
   position: relative;
 }
@@ -3009,6 +3009,18 @@ header {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.trajetoria-modal-text h4 {
+  text-align: center;
+}
+
+.trajetoria-modal-text {
+  text-align: center;
+  padding: 16px 24px;
+  margin: 0 auto;
+  font-weight: 500;
+  color: #474749;
 }
 
 .modal-email-content {

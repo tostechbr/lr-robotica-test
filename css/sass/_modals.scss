@@ -484,7 +484,7 @@
 // MODAL SEJA NOSSO PARCEIRO
 
 .parceiro-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -497,7 +497,7 @@
 }
 
 .parceiro-modal-content {
-  background: #FFF8F3;
+    background: #FFF8F3;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
@@ -527,7 +527,7 @@
 // Trajetoria da evolução modais
 
 .controle-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -540,11 +540,11 @@
 }
 
 .controle-modal-content {
-  background: #FFF8F3;
+    background: #FFF8F3;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -568,7 +568,7 @@
 }
 
 .mecanica-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -581,11 +581,11 @@
 }
 
 .mecanica-modal-content {
-  background: #FFF8F3;
+    background: #FFF8F3;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -609,7 +609,7 @@
 }
 
 .eletronica-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -622,11 +622,11 @@
 }
 
 .eletronica-modal-content {
-  background: #FFF8F3;
+    background: #FFF8F3;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -650,7 +650,7 @@
 }
 
 .design-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -667,7 +667,7 @@
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -691,7 +691,7 @@
 }
 
 .programacao-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -704,11 +704,11 @@
 }
 
 .programacao-modal-content {
-  background: #FFF8F3;
+   background: #FFF8F3;
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -732,7 +732,7 @@
 }
 
 .sustentabilidade-modal {
-  display: none; 
+    display: none; 
     position: fixed; 
     z-index: 999; 
     left: 0;
@@ -749,7 +749,7 @@
     box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
     margin: 10% auto; /* 15% from the top and centered */
     width: 450px;
-    height: 350px;
+    height: 150px;
     border-radius: 16px;
     position: relative;
 }
@@ -770,4 +770,17 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.trajetoria-modal-text h4{
+  text-align: center;
+}
+
+.trajetoria-modal-text {
+  text-align: center;
+  padding: 16px 24px;
+  margin: 0 auto;
+
+  font-weight: 500;
+  color: #474749;
 }

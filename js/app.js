@@ -84,17 +84,17 @@ closeEmailModal.onclick = function () {
 }
 
 // MODAL PARCEIRO BOTÃO
-var modalParceiro = document.getElementById("parceiro-modal");
-var btnParceiro = document.getElementById("btnParceiro");
-var spanParceiro = document.getElementsByClassName("close-parceiro")[0];
+// var modalParceiro = document.getElementById("parceiro-modal");
+// var btnParceiro = document.getElementById("btnParceiro");
+// var spanParceiro = document.getElementsByClassName("close-parceiro")[0];
 
-btnParceiro.onclick = function () {
-  modalParceiro.style.display = "block";
-}
+// btnParceiro.onclick = function () {
+//   modalParceiro.style.display = "block";
+// }
 
-spanParceiro.onclick = function () {
-  modalParceiro.style.display = "none";
-}
+// spanParceiro.onclick = function () {
+//   modalParceiro.style.display = "none";
+// }
 
 // Trajetoria da evolução modais
 
