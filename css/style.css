@@ -259,13 +259,17 @@
 
 @media screen and (max-width: 960px) and (min-width: 720px) {
   .bg-hero {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
 @media screen and (max-width: 720px) {
   .bg-hero {
-    display: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -290,17 +294,13 @@
 
 @media screen and (max-width: 960px) and (min-width: 720px) {
   .bg-hero-m {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 }
 
 @media screen and (max-width: 720px) {
   .bg-hero-m {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
   }
 }
 
@@ -385,15 +385,35 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 2rem 2rem;
 }
 
-.container-business img {
-  width: 100px;
-  height: 100px;
+.container-business .business img {
+  max-width: 70%;
+}
+
+@media screen and (max-width: 960px) and (min-width: 720px) {
+  .container-business .business {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container-business .business {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container-business .business img {
+    max-width: 100%;
+  }
 }
 
 /* SECTION PEOPLE */
@@ -1821,74 +1841,44 @@ header {
   color: #FFF8F3;
 }
 
-.bg-robo {
-  -webkit-animation: bg-hero-1 3s ease infinite alternate;
-          animation: bg-hero-1 3s ease infinite alternate;
+.raio {
+  -webkit-animation: bg-hero-1 5s infinite;
+          animation: bg-hero-1 5s infinite;
 }
 
-.bg-rocket {
+.codar {
   -webkit-animation: bg-hero-3 3s 0.5s ease infinite alternate;
           animation: bg-hero-3 3s 0.5s ease infinite alternate;
 }
 
-.bg-verific {
+.sustentabilidade {
   -webkit-animation: bg-hero-3 3s 1s ease infinite alternate;
           animation: bg-hero-3 3s 1s ease infinite alternate;
 }
 
-.bg-astronaut {
-  -webkit-animation: bg-hero-4 3s 0.4s ease infinite alternate;
-          animation: bg-hero-4 3s 0.4s ease infinite alternate;
-}
-
-.bg-world {
+.net {
   -webkit-animation: bg-hero-2 3s 1.2s ease infinite alternate;
           animation: bg-hero-2 3s 1.2s ease infinite alternate;
 }
 
-.bg-medalha {
-  -webkit-animation: bg-hero-4 3s 3s ease infinite alternate;
-          animation: bg-hero-4 3s 3s ease infinite alternate;
+.luz {
+  -webkit-animation: bg-hero-2 3s 1.2s ease infinite alternate;
+          animation: bg-hero-2 3s 1.2s ease infinite alternate;
 }
 
-.bg-robo-2 {
+.raio {
+  -webkit-animation: bg-hero-4 6s 3s ease infinite alternate;
+          animation: bg-hero-4 6s 3s ease infinite alternate;
+}
+
+.planeta {
+  -webkit-animation: bg-hero-1 3s 3s ease infinite alternate;
+          animation: bg-hero-1 3s 3s ease infinite alternate;
+}
+
+.gota {
   -webkit-animation: bg-hero-2 3s 2s ease infinite alternate;
           animation: bg-hero-2 3s 2s ease infinite alternate;
-}
-
-.robo-1-m {
-  -webkit-animation: bg-hero-1 6s ease infinite alternate;
-          animation: bg-hero-1 6s ease infinite alternate;
-}
-
-.verific-m {
-  -webkit-animation: bg-hero-3 3s 1s ease infinite alternate;
-          animation: bg-hero-3 3s 1s ease infinite alternate;
-}
-
-.robo-2-m {
-  -webkit-animation: bg-hero-2 6s 2s ease infinite alternate;
-          animation: bg-hero-2 6s 2s ease infinite alternate;
-}
-
-.medalha-m {
-  -webkit-animation: bg-hero-3 3s 3s ease infinite alternate;
-          animation: bg-hero-3 3s 3s ease infinite alternate;
-}
-
-.rocket-m {
-  -webkit-animation: bg-hero-0 3s 0.5s ease infinite alternate;
-          animation: bg-hero-0 3s 0.5s ease infinite alternate;
-}
-
-.astronaut-m {
-  -webkit-animation: bg-hero-3 3s 0.4s ease infinite alternate;
-          animation: bg-hero-3 3s 0.4s ease infinite alternate;
-}
-
-.world-m {
-  -webkit-animation: bg-hero-1 3s 1.2s ease infinite alternate;
-          animation: bg-hero-1 3s 1.2s ease infinite alternate;
 }
 
 @-webkit-keyframes bg-hero-0 {
@@ -1915,23 +1905,23 @@ header {
 
 @-webkit-keyframes bg-hero-1 {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 25px, 0);
+            transform: translate3d(0, 25px, 0);
   }
   100% {
-    -webkit-transform: translate3d(0, 75px, 0);
-            transform: translate3d(0, 75px, 0);
+    -webkit-transform: translate3d(0, 50px, 0);
+            transform: translate3d(0, 50px, 0);
   }
 }
 
 @keyframes bg-hero-1 {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 25px, 0);
+            transform: translate3d(0, 25px, 0);
   }
   100% {
-    -webkit-transform: translate3d(0, 75px, 0);
-            transform: translate3d(0, 75px, 0);
+    -webkit-transform: translate3d(0, 50px, 0);
+            transform: translate3d(0, 50px, 0);
   }
 }
 
@@ -1941,8 +1931,8 @@ header {
             transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-90px);
-            transform: translateX(-90px);
+    -webkit-transform: translateX(90px);
+            transform: translateX(90px);
   }
 }
 
@@ -1952,8 +1942,8 @@ header {
             transform: translate3d(0, 0, 0);
   }
   100% {
-    -webkit-transform: translateX(-90px);
-            transform: translateX(-90px);
+    -webkit-transform: translateX(90px);
+            transform: translateX(90px);
   }
 }
 
@@ -1985,8 +1975,8 @@ header {
             transform: translate3d(0, 90px, 0);
   }
   100% {
-    -webkit-transform: translateY(160px);
-            transform: translateY(160px);
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
   }
 }
 
@@ -1996,8 +1986,8 @@ header {
             transform: translate3d(0, 90px, 0);
   }
   100% {
-    -webkit-transform: translateY(160px);
-            transform: translateY(160px);
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
   }
 }
 

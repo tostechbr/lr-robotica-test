@@ -231,10 +231,10 @@ $container-s: 540px; // Mobile small
     z-index: -1;
 
     @include responsive(m){
-        display: none;
+        display: flex;
     }
     @include responsive(s){
-        display: none;
+        display: flex;
     }
 }
 .svg-bg-home {
@@ -256,10 +256,10 @@ $container-s: 540px; // Mobile small
     z-index: -1;
     
     @include responsive(m){
-        display: flex;
+        display: none;
     }
     @include responsive(s){
-        display: flex;
+        display: none;
     }
 }
 // SECTION TOPICS
@@ -319,12 +319,22 @@ $container-s: 540px; // Mobile small
     .business {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+
         padding: 2rem 2rem;
-    }
-    img {
-        width: 100px;
-        height: 100px;
+
+        img {
+            max-width: 70%;
+        }
+        @include responsive(m){
+            flex-direction: column;
+        }
+        @include responsive(s){
+            flex-direction: column;
+            img {
+                max-width: 100%;
+            }
+        }
     }
 }
 /* SECTION PEOPLE */
