@@ -2754,7 +2754,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
@@ -2796,7 +2797,6 @@ header {
   overflow: none;
   background-color: black;
   background-color: #fff8f3cc;
-  padding: 24px 32px;
 }
 
 .mecanica-modal-content {
@@ -2814,7 +2814,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
@@ -2856,7 +2857,6 @@ header {
   overflow: none;
   background-color: black;
   background-color: #fff8f3cc;
-  padding: 24px 32px;
 }
 
 .eletronica-modal-content {
@@ -2874,7 +2874,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
@@ -2916,7 +2917,6 @@ header {
   overflow: none;
   background-color: black;
   background-color: #fff8f3cc;
-  padding: 24px 32px;
 }
 
 .design-modal-content {
@@ -2934,7 +2934,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
@@ -2976,7 +2977,6 @@ header {
   overflow: none;
   background-color: black;
   background-color: #fff8f3cc;
-  padding: 24px 32px;
 }
 
 .programacao-modal-content {
@@ -2994,7 +2994,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
@@ -3036,7 +3037,6 @@ header {
   overflow: none;
   background-color: black;
   background-color: #fff8f3cc;
-  padding: 24px 32px;
 }
 
 .sustentabilidade-modal-content {
@@ -3054,7 +3054,8 @@ header {
           box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
   margin: 10% auto;
   /* 15% from the top and centered */
-  width: 450px;
+  padding: 24px 36px;
+  max-width: 450px;
   height: 350px;
   border-radius: 16px;
   position: relative;
