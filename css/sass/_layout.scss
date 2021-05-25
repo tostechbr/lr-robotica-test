@@ -528,7 +528,7 @@ $container-s: 540px; // Mobile small
     position: relative;
     
     $border: 1px;
-    background: linear-gradient(180deg, #FFFFFF 50%, rgb(255, 255, 255) 100%);
+    background:  linear-gradient(180deg, #fffffff5 30%, #fff8f3e5 70%);
     background-clip: padding-box;
     border: solid $border solid;
     border-radius: 24px;
@@ -558,6 +558,7 @@ $container-s: 540px; // Mobile small
         font-size: 16px;
         line-height: 150%;
         color: #808080;
+        
     }
     &:before {
         content: " ";

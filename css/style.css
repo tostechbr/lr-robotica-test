@@ -687,8 +687,8 @@
   margin: 2rem 1rem;
   text-align: center;
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #FFFFFF), to(white));
-  background: linear-gradient(180deg, #FFFFFF 50%, white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #fffffff5), color-stop(70%, #fff8f3e5));
+  background: linear-gradient(180deg, #fffffff5 30%, #fff8f3e5 70%);
   background-clip: padding-box;
   border: solid 1px solid;
   border-radius: 24px;
@@ -1303,7 +1303,7 @@ body {
   height: 100vh;
   position: relative;
   scroll-behavior: smooth;
-  background-color: #D5D3D0;
+  background-color: red;
 }
 
 svg, img {
@@ -1316,7 +1316,7 @@ svg, img {
 }
 
 body {
-  background: var(--gray-900);
+  background: #FFF8F3;
   color: var(--white);
   position: relative;
 }
@@ -1347,7 +1347,6 @@ header {
 .navbar-desktop {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1372,8 +1371,8 @@ header {
 }
 
 .navbar-desktop img {
-  width: 50px;
-  height: 50px;
+  width: 85px;
+  height: 85px;
 }
 
 .navbar-desktop .menu-desktop {
@@ -1442,6 +1441,10 @@ header {
     display: -ms-flexbox;
     display: flex;
   }
+  .navbar-mobile img {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -1449,6 +1452,10 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .navbar-mobile img {
+    width: 85px;
+    height: 85px;
   }
 }
 
@@ -1762,6 +1769,7 @@ header {
 }
 
 .footer p {
+  margin-top: 16px;
   color: #FFF8F3;
   font-weight: normal;
   font-size: 18px;
@@ -1841,11 +1849,6 @@ header {
   color: #FFF8F3;
 }
 
-.raio {
-  -webkit-animation: bg-hero-1 5s infinite;
-          animation: bg-hero-1 5s infinite;
-}
-
 .codar {
   -webkit-animation: bg-hero-3 3s 0.5s ease infinite alternate;
           animation: bg-hero-3 3s 0.5s ease infinite alternate;
@@ -1857,8 +1860,8 @@ header {
 }
 
 .net {
-  -webkit-animation: bg-hero-2 3s 1.2s ease infinite alternate;
-          animation: bg-hero-2 3s 1.2s ease infinite alternate;
+  -webkit-animation: bg-hero-1 3s 1.2s ease infinite alternate;
+          animation: bg-hero-1 3s 1.2s ease infinite alternate;
 }
 
 .luz {
@@ -1866,9 +1869,14 @@ header {
           animation: bg-hero-2 3s 1.2s ease infinite alternate;
 }
 
+.lr {
+  -webkit-animation: bg-hero-1 3s 1.2s ease infinite alternate;
+          animation: bg-hero-1 3s 1.2s ease infinite alternate;
+}
+
 .raio {
-  -webkit-animation: bg-hero-4 6s 3s ease infinite alternate;
-          animation: bg-hero-4 6s 3s ease infinite alternate;
+  -webkit-animation: bg-hero-4 2s 3s ease infinite alternate;
+          animation: bg-hero-4 2s 3s ease infinite alternate;
 }
 
 .planeta {
@@ -1971,23 +1979,23 @@ header {
 
 @-webkit-keyframes bg-hero-4 {
   0% {
-    -webkit-transform: translate3d(0, 90px, 0);
-            transform: translate3d(0, 90px, 0);
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
   }
   100% {
-    -webkit-transform: translateY(-160px);
-            transform: translateY(-160px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
 }
 
 @keyframes bg-hero-4 {
   0% {
-    -webkit-transform: translate3d(0, 90px, 0);
-            transform: translate3d(0, 90px, 0);
+    -webkit-transform: translate3d(0, 10px, 0);
+            transform: translate3d(0, 10px, 0);
   }
   100% {
-    -webkit-transform: translateY(-160px);
-            transform: translateY(-160px);
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
   }
 }
 
