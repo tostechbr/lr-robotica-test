@@ -506,6 +506,7 @@ $container-s: 540px; // Mobile small
     }
 }
 .teaching{
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -520,8 +521,8 @@ $container-s: 540px; // Mobile small
 }
 .box-teaching {
     width: 300px;
-    height: 260px;
-    margin: 2rem 1rem;
+    height: 200px;
+    margin: 0.7rem 1rem;
 
     text-align: center;
 
