@@ -27,16 +27,16 @@ span.onclick = function () {
 }
 
 // Segundo modal (Julliete)
-var modalJ = document.getElementById("myModal-j");
-var btnJ = document.getElementById("myBtn-j");
-var spanJ = document.getElementsByClassName("close-j")[0];
+var modalA = document.getElementById("myModal-a");
+var btnA = document.getElementById("myBtn-a");
+var spanA = document.getElementsByClassName("close-a")[0];
 
-btnJ.onclick = function () {
-  modalJ.style.display = "block";
+btnA.onclick = function () {
+  modalA.style.display = "block";
 }
 
-spanJ.onclick = function () {
-  modalJ.style.display = "none";
+spanA.onclick = function () {
+  modalA.style.display = "none";
 }
 
 // Terceiro modal (Maria Eduarda)
@@ -63,6 +63,45 @@ btnG.onclick = function () {
 
 spanG.onclick = function () {
   modalG.style.display = "none";
+}
+
+// Quinto modal (Rafael Souto)
+var modalR = document.getElementById("myModal-r");
+var btnR = document.getElementById("myBtn-r");
+var spanR = document.getElementsByClassName("close-r")[0];
+
+btnR.onclick = function () {
+  modalR.style.display = "block";
+}
+
+spanR.onclick = function () {
+  modalR.style.display = "none";
+}
+
+// Sexto modal (Xavier El Encantador)
+var modalX = document.getElementById("myModal-x");
+var btnX = document.getElementById("myBtn-x");
+var spanX = document.getElementsByClassName("close-x")[0];
+
+btnX.onclick = function () {
+  modalX.style.display = "block";
+}
+
+spanX.onclick = function () {
+  modalX.style.display = "none";
+}
+
+// Setimo modal (Juliana)
+var modalJ = document.getElementById("myModal-j");
+var btnJ = document.getElementById("myBtn-j");
+var spanJ = document.getElementsByClassName("close-j")[0];
+
+btnJ.onclick = function () {
+  modalJ.style.display = "block";
+}
+
+spanJ.onclick = function () {
+  modalJ.style.display = "none";
 }
 
 // MODAL EMAIL BOTÃO
