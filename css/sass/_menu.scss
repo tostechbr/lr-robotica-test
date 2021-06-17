@@ -37,13 +37,42 @@ header {
 
 
         .menu-item {
-            margin-right: 1rem;
             text-decoration: none;
             list-style: none;
+
+            display: inline-block;
+            color: $gray-2;
+
+            padding: 16px 24px;
+    
+            
 
             a {
                 color: $secondary-light;
                 font-size: 24px;
+
+                position: relative;
+
+            &::after{
+                content: '';
+                position: absolute;
+                top: 90%;
+                left: 0px;
+        
+                width: 0;
+                height: 1px;
+        
+                transition: 1s ease;
+        
+                background-color: $secondary-normal;
+            }
+            &:hover{
+                color: $primary-normal;
+        
+                &:after{
+                    width: 100%;
+                }
+            }
             }
         }
 
@@ -200,7 +229,7 @@ header {
     max-width: 1200px;
     list-style: none;
     
-   padding: 2rem 2rem;
+    padding: 2rem 2rem;
 
     display: flex;
     flex-direction: column;

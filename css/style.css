@@ -1409,14 +1409,37 @@ header {
 }
 
 .navbar-desktop .menu-desktop .menu-item {
-  margin-right: 1rem;
   text-decoration: none;
   list-style: none;
+  display: inline-block;
+  color: #555456;
+  padding: 16px 24px;
 }
 
 .navbar-desktop .menu-desktop .menu-item a {
   color: #224F5C;
   font-size: 24px;
+  position: relative;
+}
+
+.navbar-desktop .menu-desktop .menu-item a::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  left: 0px;
+  width: 0;
+  height: 1px;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  background-color: #013342;
+}
+
+.navbar-desktop .menu-desktop .menu-item a:hover {
+  color: #FF6C0E;
+}
+
+.navbar-desktop .menu-desktop .menu-item a:hover:after {
+  width: 100%;
 }
 
 .navbar-desktop .menu-desktop .btn-contact {
